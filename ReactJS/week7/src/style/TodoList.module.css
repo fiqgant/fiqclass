@@ -22,7 +22,7 @@
 }
 
 :local .form input[type="text"] {
-    padding: 10px;
+    padding: 10px 20px;
     margin-right: 10px;
     font-size: 16px;
 }
