@@ -1,0 +1,64 @@
+/* file TodoList.module.css */
+
+:local .title {
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:local .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    height: 100vh;
+}
+
+:local .form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+:local .form input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+:local .form button[type="submit"] {
+    background-color: rgb(0, 255, 81);
+    color: black;
+    padding: 10px 20px;
+    font-weight :bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+:local .list {
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 10px;
+    justify-content: center;
+}
+
+:local .list button{
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+:local .list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+:local .list-item input[type="checkbox"] {
+    margin-right: 10px;
+}
