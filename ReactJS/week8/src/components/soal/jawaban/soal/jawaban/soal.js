@@ -23,6 +23,10 @@ function Soal() {
           Buatlah sebuah komponen React JS bernama PhotoGallery yang menampilkan daftar foto-foto yang disimpan dalam sebuah array. 
           Setiap foto harus ditampilkan dengan judul dan deskripsi.
         </p>
+        <h1>Soal 5</h1>
+        <p>
+          Buatlah sebuah repository github yang bernama "Ujian Tengah Semester KKPAW NIM" yang berisi jawaban soal 2, 3 dan 4 dan deploy ke Vercel
+        </p>
       </header>
     </div>
   );
