@@ -5,9 +5,10 @@ import TodoList from './components/TodoList';
 import About from './components/About';
 import Contact from './components/Contact';
 
+
 function App() {
   return (
-    <Router>
+    <Router forceRefresh={true}>
       <div>
         <nav>
           <ul>
