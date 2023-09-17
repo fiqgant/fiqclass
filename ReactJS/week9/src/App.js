@@ -1,10 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
-import './App.css';
 import TodoList from './components/TodoList';
 import About from './components/About';
 import Contact from './components/Contact';
-
+import './App.css';
 
 function App() {
   return (
